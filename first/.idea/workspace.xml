@@ -14,8 +14,8 @@
       <file leaf-file-name="hello world" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello world">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="192">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -176,10 +176,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://D:/cache/qqfile/Python 总结和练习/download(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello world">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="192">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding />
         </state>
       </provider>
