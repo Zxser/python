@@ -49,6 +49,14 @@ print(find_your_friends)
 
 
 
-phone_number='13065032542'
-hiding_number=phone_number.replace(phone_number[:7],'*', * 7 )
+phone_number = '13065032542'
+hiding_number = phone_number.replace(phone_number[:7],'*'  * 7 )
 print(hiding_number)
+
+
+
+search = '130'
+num_a= '13065032542'
+num_b= '13013065411'
+print(search + ' is at ' + str(num_a.find(search)+1) + ' to ' + str(num_a.find(search)+ len(search))+ ' of num_a ')
+print(search + ' is at ' + str(num_b.find(search)+1) + ' to ' + str(num_b.find(search)+ len(search))+ ' of num_b ')
