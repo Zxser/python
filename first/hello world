@@ -18,8 +18,8 @@ print(words)
 word = 'a looooooong word'
 num = 12
 string = 'bang!'
-total = string * (len(word) - num)
-print(total)
+total = string * (len(word) - num)  #len的作用是统计字符串的个数，相当于17-12=4
+print(type(total))
 
 
 
