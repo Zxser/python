@@ -1,0 +1,17 @@
+#coding:utf-8
+a=11
+b=22
+c='1'
+num2 = int(c)    #转化为int类型，这样会认为是个值相当于c=1一样
+count=a+b+num2
+print(count)
+a=11
+b=22
+c='1'
+count
+
+
+
+
+words= 'daya ' * 3
+print(words)
