@@ -23,3 +23,25 @@ print(type(total))
 
 
 
+
+
+
+name='My name is Mike'   #有第0个，但是没有-0这个概念
+print(name[-4])         #即M
+print(name[11:14])      #空格也算，那么11:14代表从11到14  到14但是不包含14
+print(name [5:])        #从第五个字符开始直到结束
+print(name[:5])         #准确的说是从0-5,省略写成这样的
+print(name[:-4])        #从第0个到-4个
+print(name[-4:])        #-4个到最后一个
+
+
+
+
+
+
+
+
+#找出你朋友中的魔鬼
+friends='friends'
+find_your_friends=friends[0]+friends[2:4]+friends[-3:-1]
+print(find_your_friends)
