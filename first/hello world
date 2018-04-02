@@ -60,3 +60,8 @@ num_a= '13065032542'
 num_b= '13013065411'
 print(search + ' is at ' + str(num_a.find(search)+1) + ' to ' + str(num_a.find(search)+ len(search))+ ' of num_a ')
 print(search + ' is at ' + str(num_b.find(search)+1) + ' to ' + str(num_b.find(search)+ len(search))+ ' of num_b ')
+
+
+
+
+print('{} a word can get what she {} for.',format('with','came'))
