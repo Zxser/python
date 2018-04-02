@@ -45,3 +45,10 @@ print(name[-4:])        #-4个到最后一个
 friends='friends'
 find_your_friends=friends[0]+friends[2:4]+friends[-3:-1]
 print(find_your_friends)
+
+
+
+
+phone_number='13065032542'
+hiding_number=phone_number.replace(phone_number[:7],'*', * 7 )
+print(hiding_number)
