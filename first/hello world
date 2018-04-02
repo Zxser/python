@@ -64,4 +64,10 @@ print(search + ' is at ' + str(num_b.find(search)+1) + ' to ' + str(num_b.find(s
 
 
 
-print('{} a word can get what she {} for.',format('with','came'))
+print('{} a word can get what she {} for.'.format('with','came'))
+print('{} shi daya {}'.format('mengqingyu','a'))
+
+city = input("write down the name of city:")
+url = "http://apistore.baidu.com/microservice/weather?citypinyin={}".format(city)
+city1 = input("write down the name of city:")
+url = "http://baidu.com{}".format(city1)
