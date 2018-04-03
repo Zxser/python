@@ -21,6 +21,27 @@ def fahrenheit_converter(g):
 print(fahrenheit_converter(2000))
 
 
+def ti_area(base_up,base_down,height):
+    return 1/2 * (base_up+base_down) *height
+    trapezoid_area(1,2,3)  #位置参数
+
+
+
+#梯形面积
+def ti_area(base_up=1, base_down=2, height=3):
+    return 1/2 *(base_up+base_down) * height
+    print(ti_area)
 
 #lyric_length = len ('hello    world')
 #print(lyric_length)
+battery1=600
+battery2=600
+def flashlight (battery1,battery2):
+    return 'Light!'
+print(flashlight)
+
+
+def trapezoid_area(base_up=1,base_down=2,height=3):
+    return 1/2 * (1+2)*height
+print(trapezoid_area())
+
