@@ -1,0 +1,60 @@
+#安装pyenv
+yum -y install gcc gcc-c++ make git patch openssl-devel zlib-devel readline-devel sqlite-devel bzip2-devel bzip2-libs
+
+curl -L https://raw.github.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+
+#配置环境变量
+
+echo -e '\n#pyenv' >>~/.bashrc
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+source ~/.bashrc
+
+
+#选择python版本安装通过搜狐加速安装
+version=2.7.13
+wget http://mirrors.sohu.com/python/$version/Python-$version.tar.xz -P ~/.pyenv/cache/;pyenv install $version
+
+
+
+#pyenv命令
+
+pyenv version          # 查看当前系统使用的python版本
+pyenv versions         # 查看当前系统拥有的python版本
+pyenv uninstall 2.7.13 # 卸载
+pyenv local 2.7.13     # local仅对当前目录及子目录生效，告诉当前目录使用版本2.7.5，
+pyenv global           # 告诉全局环境使用某个版本，为了不破坏系统环境，不建议使用global设置全局版本
+pyenv rehash           # 重建环境变量，每当你增删 Python 版本或带有可执行文件的包（如 pip）以后，都应该执行一次本命令
+
+
+#切换python版本
+pyenv global 2.7.13   #全局进行切换到python 2.7.1版本
+pyenv global system   #切换回系统版本
+pyenv local  2.7.13   #只针对当前目录及其子目录切换python 2.7.1版本
+
+
+#python虚拟环境
+pyenv virtualenv 2.7.13 py2713  #在本机上创建了一个名为py2713的python虚拟环境，这个环境的真实目录位于：~/.pyenv/versions/ python版本必须存在
+pyenv activate py2713           #切换到新的虚拟环境
+pyenv deactivate                #如果要切换回系统环境
+pyenv uninstall py2713          #删除虚拟环境
+
+
+#创建一个项目限定使用某个环境
+mkdir ~/myproject
+cd ~/myproject/
+pyenv local py2713
+#在此目录中是python 2.7.13 
+(py2713) [root@node1 myproject]# python
+Python 2.7.13 (default, Mar 24 2017, 23:43:52) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-11)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+#跳出此目录为系统的Python 2.7.5 
+(py2713) [root@node1 myproject]# cd
+[root@node1 ~]# python
+Python 2.7.5 (default, Nov 20 2015, 02:00:19) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-4)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
