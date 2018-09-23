@@ -1,0 +1,26 @@
+#file=open("D://Users/Daya/Desktop/1.txt",'w')
+#file.write( 'hello world' )
+
+
+
+def text_cerate(name,dsg): #定义函数的名称和参数
+    clean_msg = text_filter(dsg)
+    text_cerate(name,clean_msg)
+    censored_text_create('Try','lame!lame!lame!')
+    desktop_path=('D://Users/Daya/Desktop/')    #定义文件路径
+    full_path=desktop_path+ name + '.doc'       #给文件起名字，传入文件路径，文件名，加文件格式
+    file=open(full_path,'w')                    #打开文件，加上write的动作，
+    file.write(dsg)                     #写入传入的参数dsg
+
+
+
+
+
+
+    file.close()                        #关闭文本
+    print('OK')                         #回显
+text_cerate('hello', 'hello world')     #文件名，写入的文件内容
+
+#def text_filter (word,censored_word = 'lame',changed_word = 'Awesome'):
+ #   return word.replase (censored_word,changed_word)
+#text_cerate('python is lame!')

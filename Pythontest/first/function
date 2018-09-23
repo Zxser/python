@@ -1,0 +1,47 @@
+#摄氏度的写法
+#一种采用return的方式
+#一种采用print的方式
+#写法一
+#def fahrenheit_convertere(C):
+#        fahrenheit_convertere = C *  9/5 +32      #9/5同样也是1.8没有任何区别。
+ #       print (str(fahrenheit_convertere) + ' ')   #返回结果，并加入华氏摄氏度符号
+#C2F = fahrenheit_convertere(35)  # 输入摄氏度
+#print(C2F)
+##写法二
+#def fahreheit_convertere(B):
+#    fahrenheit_convertere = B * 9/5 + 32
+#    return fahrenheit_convertere + ' ˚F'
+#C2F = fahrenheit_convertere(40)
+#print(C2F)
+
+
+#市斤换算
+def fahrenheit_converter(g):
+    return str (g / 1000) + 'kg'
+print(fahrenheit_converter(2000))
+
+
+def ti_area(base_up,base_down,height):
+    return 1/2 * (base_up+base_down) *height
+    trapezoid_area(1,2,3)  #位置参数
+
+
+
+#梯形面积
+def ti_area(base_up=1, base_down=2, height=3):
+    return 1/2 *(base_up+base_down) * height
+    print(ti_area)
+
+#lyric_length = len ('hello    world')
+#print(lyric_length)
+battery1=600
+battery2=600
+def flashlight (battery1,battery2):
+    return 'Light!'
+print(flashlight)
+
+
+def trapezoid_area(base_up=1,base_down=2,height=3):
+    return 1/2 * (1+2)*height
+print(trapezoid_area())
+

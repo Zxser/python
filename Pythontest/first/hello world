@@ -1,0 +1,73 @@
+#coding:utf-8
+a=11
+b=22
+c='1'
+num2 = int(c)    #转化为int类型，这样会认为是个值相当于c=1一样
+count=a+b+num2   #字符串之间可以想加也可以想乘
+print(count)
+a=11
+b=22
+c='1'
+count
+
+words= 'daya ' * 3
+print(words)
+
+
+
+word = 'a looooooong word'
+num = 12
+string = 'bang!'
+total = string * (len(word) - num)  #len的作用是统计字符串的个数，相当于17-12=4
+print(type(total))
+
+
+
+
+
+
+name='My name is Mike'   #有第0个，但是没有-0这个概念
+print(name[-4])         #即M
+print(name[11:14])      #空格也算，那么11:14代表从11到14  到14但是不包含14
+print(name [5:])        #从第五个字符开始直到结束
+print(name[:5])         #准确的说是从0-5,省略写成这样的
+print(name[:-4])        #从第0个到-4个
+print(name[-4:])        #-4个到最后一个
+
+
+
+
+
+
+
+
+#找出你朋友中的魔鬼
+friends='friends'
+find_your_friends=friends[0]+friends[2:4]+friends[-3:-1]
+print(find_your_friends)
+
+
+
+
+phone_number = '13065032542'
+hiding_number = phone_number.replace(phone_number[:7],'*'  * 7 )
+print(hiding_number)
+
+
+
+search = '130'
+num_a= '13065032542'
+num_b= '13013065411'
+print(search + ' is at ' + str(num_a.find(search)+1) + ' to ' + str(num_a.find(search)+ len(search))+ ' of num_a ')
+print(search + ' is at ' + str(num_b.find(search)+1) + ' to ' + str(num_b.find(search)+ len(search))+ ' of num_b ')
+
+
+
+
+print('{} a word can get what she {} for.'.format('with','came'))
+print('{} shi daya {}'.format('mengqingyu','a'))
+
+city = input("write down the name of city:")
+url = "http://apistore.baidu.com/microservice/weather?citypinyin={}".format(city)
+city1 = input("write down the name of city:")
+url = "http://baidu.com{}".format(city1)
