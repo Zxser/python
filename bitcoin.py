@@ -7,7 +7,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 import pyttsx
 from coinmarketcap import Market
-import json, sys, time
+import json, sys,time
 
 
 def speak(btc_price):

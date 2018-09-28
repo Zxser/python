@@ -1,4 +1,0 @@
-
-def sheshidu_a(C):
-    sheshidu = C * 9/5 +32
-    return str (sheshidu) + 'F'

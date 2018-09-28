@@ -1,6 +1,0 @@
-print ('hello world')
-print (2**100)
-print ('')
-
-
-cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local  -DINSTALL_PYTHON_EXAMPLES=ON -DINSTALL_C_EXAMPLES=OFF  -DOPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.1.0/modules -DPYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -DBUILD_EXAMPLES=ON ..
