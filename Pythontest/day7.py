@@ -26,3 +26,14 @@ print (friends.items())
 print (friends.values())
 print (friends.get('tom'))
 print (friends.get('a','bucunzai'))
+print (friends.pop('bob'))
+print (friends)
+
+
+
+t1=( )
+print (t1)
+t2=(11,22,33)
+t3=tuple([1,2,3,4])
+t4=tuple("abc")
+print (t2+t3+t4)
