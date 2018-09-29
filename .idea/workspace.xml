@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3d381f-c479-4924-8aae-fe1802fdd889" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pythontest/dns_transfer_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pythontest/1024crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +17,19 @@
       <file leaf-file-name="day8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pythontest/day8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="153">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dns_transfer_check.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pythontest/dns_transfer_check.py">
+      <file leaf-file-name="1024crawler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pythontest/1024crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="189">
+              <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="15" />
               <folding>
-                <element signature="e#332#342#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +57,7 @@
         <option value="$PROJECT_DIR$/Pythontest/day7.py" />
         <option value="$PROJECT_DIR$/Pythontest/day8.py" />
         <option value="$PROJECT_DIR$/Pythontest/dns_transfer_check.py" />
+        <option value="$PROJECT_DIR$/Pythontest/1024crawler.py" />
       </list>
     </option>
   </component>
@@ -264,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538199275462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加了一个用来批量检测网站是否存在域传送漏洞的Python脚本">
+      <created>1538200587157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538200587157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +315,8 @@
     <MESSAGE value="add a new file" />
     <MESSAGE value="add a new file end the day" />
     <MESSAGE value="add a new file  2018.9.29 13.34" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a new file  2018.9.29 13.34" />
+    <MESSAGE value="增加了一个用来批量检测网站是否存在域传送漏洞的Python脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了一个用来批量检测网站是否存在域传送漏洞的Python脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -409,19 +418,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pythontest/day8.py">
+    <entry file="file://$PROJECT_DIR$/Pythontest/dns_transfer_check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="399">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#332#342#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pythontest/dns_transfer_check.py">
+    <entry file="file://$PROJECT_DIR$/Pythontest/day8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="153">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pythontest/1024crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="15" />
           <folding>
-            <element signature="e#332#342#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
