@@ -39,3 +39,51 @@ def printMax(x, y):
 
 printMax(3, 5)
 print (printMax.__doc__)
+
+
+
+# 循环
+for i in (1,"m",2,3,4):
+    print (i)
+# 或
+mylist=(1,"m",2,3,4)
+for i in mylist:
+    print (i)
+
+for i in range(10):
+    print (i)
+for i in range(0,9):
+    print (i)
+for i in range(1,10,2):
+    print (i)
+
+# range()函数只有1个参数时，表⽰从0开始循环；两个参数时，第⼀个参数是起始 值，第⼆个参数是结束值；三个参数时，第三个参数表⽰循环步长
+
+# while循环
+# while循环While循环会⼀直执⾏循环体内部的声明，直到条件变成false。每次循环都会检 查判断条件，如果为真，就继续循环。例如
+count=0
+while count<10:
+    print (count)
+    count +=1
+
+count=0
+while  count<10:
+    count+=1
+    if count ==5:
+        break
+    print ("inside loop",count)
+print ("out of while loop")
+
+count=0
+while count<10:
+    count+=1
+    if count %2 ==0:
+        continue
+    print (count)
+
+count=0
+while count <10:
+    count+=1
+    if count %3 ==0:
+        continue
+    print (count)
