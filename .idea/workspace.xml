@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f3d381f-c479-4924-8aae-fe1802fdd889" name="Default" comment="day10">
-      <change afterPath="$PROJECT_DIR$/Pythontest/面向对象的编程/创建类.py" afterDir="false" />
+    <list default="true" id="8f3d381f-c479-4924-8aae-fe1802fdd889" name="Default" comment="Add a new file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythontest/day10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythontest/day10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythontest/面向对象的编程/创建类.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythontest/面向对象的编程/创建类.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +15,24 @@
     <session id="-1590999213">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1313" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="1338" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="1313" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="1338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,11 +54,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pythontest/面向对象的编程/创建类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="540">
+              <caret line="29" column="56" selection-start-line="15" selection-end-line="29" selection-end-column="56" />
               <folding>
-                <marker date="1538735096731" expanded="true" signature="13:18" ph="..." />
-                <marker date="1538735096731" expanded="true" signature="87:92" ph="..." />
+                <marker date="1538814505721" expanded="true" signature="13:18" ph="..." />
+                <marker date="1538814505721" expanded="true" signature="87:92" ph="..." />
               </folding>
             </state>
           </provider>
@@ -404,11 +405,19 @@
       <option name="project" value="LOCAL" />
       <updated>1538732357711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add a new file">
+      <created>1538735204526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1538735204526</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20380434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,7 +460,8 @@
     <MESSAGE value="修改了一些脚本" />
     <MESSAGE value="day9" />
     <MESSAGE value="day10" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10" />
+    <MESSAGE value="Add a new file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a new file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -581,11 +591,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythontest/面向对象的编程/创建类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="540">
+          <caret line="29" column="56" selection-start-line="15" selection-end-line="29" selection-end-column="56" />
           <folding>
-            <marker date="1538735096731" expanded="true" signature="13:18" ph="..." />
-            <marker date="1538735096731" expanded="true" signature="87:92" ph="..." />
+            <marker date="1538814505721" expanded="true" signature="13:18" ph="..." />
+            <marker date="1538814505721" expanded="true" signature="87:92" ph="..." />
           </folding>
         </state>
       </provider>
