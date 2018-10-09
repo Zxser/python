@@ -28,3 +28,29 @@ class Employee:
     def displayEmployee(self):
         print (
         "Name : ", self.name, ", Salary: ", self.salary)
+
+class a:
+    empcount = 0
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary =salary
+        Employee.empCount +=1
+    def displaycount(self):
+        print
+        ("total employee %d" % Employee.empCount)
+    def displayEmployee(self):
+        print
+        ("Name:",self.name,"salary:",self.salary)
+
+class person:
+        def __init__(self,name):
+            self.name=name
+        def whoami(self):
+            return "you are " + self.name
+
+# p1=person('tom')
+p1=person('jerry')
+print(p1.whoami())
+print(p1.name)
+
+
