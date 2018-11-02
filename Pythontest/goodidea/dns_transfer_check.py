@@ -11,6 +11,7 @@
 __author__ = 'Layert'
 #coding:utf-8
 '''
+
 #这是一个用来检测网站是否存在域传送漏洞的脚本，请在python2.7版本下运行
 #可以根据需要，选择单个检测和批量检测
 '''
@@ -24,7 +25,6 @@ except ImportError:
     print "This script requires dnspython"
     print "http://www.dnspython.org/"
     sys.exit(1)
-
 
 
 class Transferrer(object):
