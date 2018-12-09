@@ -1,3 +1,5 @@
+# from Pythontest.day5 import d
+
 print ('I','love','you')
 print ('100+200 =',100+200)
 print ('1024x768 =',1024*768)
@@ -85,5 +87,98 @@ print (b'abc'.decode('ascii'))
 print (b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8'))
 print (len('abc'))
 print (len('中文'))
+#为了让它按 UTF-8 编码读取，我们通常在文件开头写上这两行
+#!/usr/bin/env python3 
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+
+
+
+# 在字符串内部，%s表示用字符串替换，
+# %d 表示用整数替换，
+# 有几个%?占位符，后面就跟几个变量或者值，
+# 顺序要对应好。如果只有一个%?，括号可以省略。
+# %d 整数
+# %f 浮点数
+# %s 字符串
+# %x 十六进制整数
+
+
+print ("hello,my name's %s i'am %d years,old" %('mengqingyu',19))
+print ("hello,my name's %(name)s. i am %(age)d year old" % {'name':'mengqingyu','age':19})
+print ("I'm %(name)s. I'm %(age)d year old" % {'name':'Vamei', 'age':99})
+# print("I'm %s. I'm %d year old" % ('Vamei', 99))
+print ('%03d-%03d' %(3,1))
+print ('%.3f' %3.1415926)
+print ("i  am my name is %s, i'm %s years old "  % ("mengqingyu","19"))
+print ("age:%s,name:%s" %(25,"mengqingyu"))
+print ("groth rate:%d%%" %(7))
+print ("my name is %s,i am %s years old" %("mengqingyu",19))
+
+s1=72
+s2=85
+print ("xiaoming is %.1f%%" %(s2-s1))
+
+test=['test1','test2','test3']
+test.append('test4')
+
+print (test)
+print (test[0])
+print (test[1])
+print (test[2])
+print (test[-1])
+test.pop(-1)
+print (test[-1])
+# IndexError: list index out of range
+
+list=('apple中',123,True)
+print (list)
+
+p=['asp','php']
+s=['python','java',p,'scheme']
+print (p,s)
+L=[""]
+print (len(L))
+
+classments=('tom','jerry','Michael')
+print (classments)
+
+
+# tuple
+t=(1,2)
+print (t)
+t=()
+print (t)
+t=(1,)
+print (t)
+
+
+# t=('a','b',['A','B'])
+# print (t[2])
+# print (t[2][0]='X')
+# -*- coding: utf-8 -*- 
+ 
+L = [['Apple', 'Google', 'Microsoft'],     
+	['Java', 'Python', 'Ruby', 'PHP'],
+	['Adam', 'Bart', 'Lisa'] ] 
+print (L[0][0])
+print (L[1][1])
+print (L[2][2])
+
+
+
+
+# age=20
+# if age >=18:
+# 	print ('your age is',age)
+# 	print ('adult')
+# age=20
+# if age >=18:
+# 	print ('your age is ',age)
+# 	print ('adult')
+# else:
+# 	print ('your age is ',age)
+# 	print ('teenager')
 
