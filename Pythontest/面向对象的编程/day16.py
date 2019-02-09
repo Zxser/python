@@ -51,8 +51,37 @@
 #     sum=sum+x
 # print (x)
 # print (sum)
+#
+# # step(2)
+# for x in range(101):
+#     sum=sum+x
+# print (sum)
 
-# step(2)
-for x in range(101):
-    sum=sum+x
-print (sum)
+# #step3
+# sum=0
+# n=99
+# while n>0:
+#     sum=sum+n
+#     n=n-2
+# print(sum)
+#
+# L=['a','b','c']
+# for x in L:
+#     print ('hello',x,'!')
+
+# name=['a','b','c']
+# age=[1,2,3]
+
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+print (d['Michael'])
+# 把数据放入 dict 的方法，除了初始化时指定外，还可以通过 key 放入：
+d['Bob']=67
+print (d['Bob'])
+
+# 由于一个 key 只能对应一个 value，所以，多次对一个 key 放入 value，
+# 后面的值会把前面的值冲掉：
+d['Tracy']=95
+d['Tracy']=94
+print (d['Tracy'])
+# 你可以猜到，这种 key-value 存储方式，在放进去的时候，必须根据 key
+# 算出 value 的存放位置，这样，取的时候才能根据 key 直接拿到 value。
