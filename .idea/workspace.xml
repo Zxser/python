@@ -15,19 +15,19 @@
     <session id="-1590999213">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9959" />
+          <entry key="py" value="10402" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="9959" />
+          <entry key="Python" value="10402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
@@ -37,10 +37,10 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,11 +66,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pythontest/面向对象的编程/day16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="258">
+              <caret line="199" column="15" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="15" />
               <folding>
-                <marker date="1549785659371" expanded="true" signature="3239:3246" ph="..." />
-                <marker date="1549785659371" expanded="true" signature="3323:3328" ph="..." />
+                <marker date="1550021410524" expanded="true" signature="3239:3246" ph="..." />
+                <marker date="1550021410524" expanded="true" signature="3325:3332" ph="..." />
               </folding>
             </state>
           </provider>
@@ -155,7 +155,7 @@
     <property name="SearchEverywhereHistoryKey" value=")&#9;ACTION&#9;EditorPopupMenu1" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -552,7 +552,28 @@
       <option name="project" value="LOCAL" />
       <updated>1549774862584</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change new files">
+      <created>1549785875471</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1549785875471</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change new files">
+      <created>1549786032806</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1549786032806</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change new files">
+      <created>1549786148613</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1549786148613</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -890,11 +911,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythontest/面向对象的编程/day16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="258">
+          <caret line="199" column="15" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="15" />
           <folding>
-            <marker date="1549785659371" expanded="true" signature="3239:3246" ph="..." />
-            <marker date="1549785659371" expanded="true" signature="3323:3328" ph="..." />
+            <marker date="1550021410524" expanded="true" signature="3239:3246" ph="..." />
+            <marker date="1550021410524" expanded="true" signature="3325:3332" ph="..." />
           </folding>
         </state>
       </provider>

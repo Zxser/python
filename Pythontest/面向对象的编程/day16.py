@@ -170,10 +170,42 @@
 #     else:
 #         return -x
 
-def my_abs(x):
-    if x > 0:
-        return x
-    else:
-        return -x
+# def my_abs(x):
+#     if x > 0:
+#         return x
+#     else:
+#         return -x
+
+# def chengfa(x):
+#     return x * x
+# print (chengfa(555))
 
 
+# def chengfa(x,n):
+#     s=1
+#     while n > 0:
+#         n=n-1
+#         s=s*x
+#     return s
+
+#
+
+def app_end(L=[]):
+    L.append('END')
+    return L
+print (app_end([1,2,3,4]))
+print (app_end(['x','y','z']))
+print (app_end())
+print (app_end())
+print (app_end())
+
+
+
+def app_end(L=None):
+    if L is None:
+        L=[]
+    L.append('END')
+    return L
+print (app_end())
+print (app_end())
+print (app_end())
