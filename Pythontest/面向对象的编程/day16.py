@@ -190,22 +190,72 @@
 
 #
 
-def app_end(L=[]):
-    L.append('END')
-    return L
-print (app_end([1,2,3,4]))
-print (app_end(['x','y','z']))
-print (app_end())
-print (app_end())
-print (app_end())
+#
+# def app_end(L=[]):
+#     L.append('END')
+#     return L
+# print (app_end([1,2,3,4]))
+# print (app_end(['x','y','z']))
+# print (app_end())
+# print (app_end())
+# print (app_end())
+#
+#
+#
+# def app_end(L=None):
+#     if L is None:
+#         L=[]
+#     L.append('END')
+#     return L
+# print (app_end())
+# print (app_end())
+# print (app_end())
+
+
+# def calc(numbers):
+#     sum=0
+#     for n in numbers:
+#         sum=sum+n*n
+#         return sum
+# print (calc([1,3,4]))
+
+
+#
+# def person(name,age,**kw):
+#     print ('name:',name,' age:',age,' other:',kw)
+# # print (person('tom',13,))
+# # print (person('bob',35,city='beijing'))
+# # print (person('tom',35,city='beijing',old='333'))
+#
+#
+# # extra = {'city':'beijing','job:':'Engineer'}
+# extra = {'city': 'Beijing', 'job': 'Engineer'}
+# # print (person('jack',24,city=extra['city'],job=extra['job']))
+# # or
+# print ('Jack',24,**extra)
+
+
+#
+# def person(name,age,**kw):
+#     if 'city' in kw:
+#         pass
+#     if 'job' in kw:
+#         pass
+#     print ('name:',name,'age:',age,'other:',kw)
+#     print('jack',24,city='beijing',addr='chaoyang',zipcode=123456)
+#
+
+
+def person (name,age,*,city,job):
+    print (name,age,city,job)
+print (person('jack','24',city='beijing',job='engineer'))
+print (person('jack','24',city='beijing',job='engineer'))
 
 
 
-def app_end(L=None):
-    if L is None:
-        L=[]
-    L.append('END')
-    return L
-print (app_end())
-print (app_end())
-print (app_end())
+def person(name,age,*,city='beijing',job):
+    print(name,age,city,job)
+print ('jack','24',job='teacher')
+
+
+
